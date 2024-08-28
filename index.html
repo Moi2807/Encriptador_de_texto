@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <section id="viewport">
+        <header class="header">ENCRIPTADOR DE TEXTO</header>
+        <main class="main">
+            <h1 class="instruccion">Ingresa tu texto solo letras minúsculas sin acentos ni caracteres especiales.</h1>
+            <div class="main__campos">
+                <textarea id="textoIngresado" cols="30" rows="10" placeholder="Ingresa tu texto:"></textarea>
+                <textarea id="textoSalida" cols="20" rows="10" placeholder="Este es tu mensaje:"></textarea>
+            </div>
+
+            <div class="main__botones">
+                <button id="encriptar" onclick="botonEncriptar()">ENCRIPTAR</button>
+                <button id="desencriptar" onclick="botonDesencriptar()">DESENCRIPTAR</button>
+                <button id="copiar" onclick="botonCopiar()">COPIAR</button>
+            </div>
+        </main>
+        <footer class="footer">Creado por Moisés Salazar - HelloONE G7 2024.</footer>
+    </section>
+<script src="app.js"></script>    
+</body>
+<div class="capa"></div>
+</html
